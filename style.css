@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    background-color: #0D1117;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    border-left: 10px ridge #CBCBCB;
+    border-top:10px ridge #CBCBCB;
+    border-right: 10px ridge #FDFEFD;
+    border-bottom: 10px ridge #FDFEFD;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CBCBCB;
+}
+
+.case {
+    height: 12.5%;
+    width: 12.5%;
+    border: 2px dotted black;
+    border-width: 0 2px 2px 0;
+}
+
+.one {
+    background-image: url(./img/1.png);
+    background-position: center;
+}
+
+.two {
+    background-image: url(./img/2.png);
+    background-position: center;
+}
+
+.three {
+    background-image: url(./img/3.png);
+    background-position: center;
+}
+
+.bomb {
+    background-image: url(./img/bomb.png);
+    background-position: center;
+
+}
+
+.uncheck {
+    border: 4px outset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uncheck img {
+    opacity: 0;
+}
+
+.uncheck img:hover {
+    opacity: 1;
+}
