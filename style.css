@@ -61,4 +61,5 @@ body {
 
 .uncheck img:hover {
     opacity: 1;
+    border: 4px inset;
 }
